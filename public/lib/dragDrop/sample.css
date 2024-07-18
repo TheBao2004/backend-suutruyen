@@ -1,0 +1,30 @@
+
+.box_drag_grop {
+    overflow-x: auto;
+    /* overflow-y: auto; */
+    /* max-height: 500px; */
+  position: relative; }
+  .box_drag_grop .brick {
+    opacity: 1;
+    cursor: pointer;
+    position: relative; }
+
+    .box_drag_grop .brick.small {
+        border-radius: 5px;
+        border: 1px solid #EB1616;
+      width: 140px;
+      height: 140px; }
+    .box_drag_grop .brick.large {
+      width: 300px;
+      height: 300px; }
+    .box_drag_grop .brick.dragging {
+      opacity: 0.8; }
+
+    .brick_image{
+
+        margin: auto;
+        width: 100px;
+        height: 100px;
+        background-size: cover;
+
+    }

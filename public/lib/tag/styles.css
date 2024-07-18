@@ -1,0 +1,17 @@
+.tags-container {
+    margin-top: 10px;
+    border: 1px solid #EB1616;
+    padding: 5px;
+  }
+  .tag {
+    display: inline-block;
+    background-color: #f0f0f0;
+    padding: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+  }
+  .close {
+    cursor: pointer;
+    margin-left: 5px;
+  }

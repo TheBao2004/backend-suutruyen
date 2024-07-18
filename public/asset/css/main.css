@@ -1,0 +1,96 @@
+.text-end{
+    text-align: end;
+}
+
+
+.text-start{
+    text-align: start;
+}
+
+
+.navbar{
+    padding: 0;
+    border-style: none;
+    border-width: none;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+.rounded-circle{
+    object-fit: cover;
+}
+
+
+.truncate-text {
+    max-width: 300px; /* Độ rộng tối đa cho phép của thẻ a */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Hiển thị dấu chấm ba khi văn bản bị cắt bớt */
+    white-space: nowrap; /* Ngăn không cho văn bản xuống dòng */
+    display: inline-block;
+}
+.truncate-text:hover {
+    overflow: visible;
+    white-space: normal; /* Cho phép văn bản xuống dòng khi rê chuột vào */
+    color: #EB1616;
+}
+
+
+.checkbox_choose_image{
+    background: linear-gradient(to bottom, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    width: 28px;
+    height: 28px;
+    box-shadow: inset 0px 1px 1px #fff, 0px 1px 3px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    position: relative;
+}
+.checkbox_choose_image label{
+    cursor: pointer;
+    background: linear-gradient(to bottom, #222222 0%, #45484d 100%);
+    width: 20px;
+    height: 20px;
+    box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px #fff;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+}
+.checkbox_choose_image label:after{
+    content: "";
+    height: 7.5px;
+    width: 13px;
+    border-left: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 4px;
+    left: 3px;
+    opacity: 0;
+}
+.checkbox_choose_image input[type="checkbox"]:checked+label:after{ opacity: 1; }
+.checkbox_choose_image input[type="checkbox"]{
+    margin: 0;
+    visibility: hidden;
+    left: 7px;
+    top: 7px;
+}
+
+
+.box_image{
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+}
+
+.item_checkbox_image_chap{
+    width: fit-content;
+    border: 1px solid #EB1616;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.box_checkbox_image_chap{
+
+    overflow-y: auto;
+    max-height: 500px;
+
+}
